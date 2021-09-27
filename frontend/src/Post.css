@@ -1,0 +1,55 @@
+.post {
+  padding: 10px;
+  border-bottom: 1.5px solid #e6edf1;
+}
+.postHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.postHeaderLeft {
+  display: flex;
+  align-items: center;
+}
+.postHeadertitleHeader {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.postHeaderttle > h3,
+p {
+  margin: 3px;
+}
+.icons {
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  fill: #51b9fa;
+}
+.image {
+  width: 430px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.postMiddel {
+  padding: 10px;
+  margin-left: 30px;
+}
+.postFooter {
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.postFooterIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.postFooterIcon {
+  display: flex;
+  align-items: center;
+}
+.postFooterIcon > span {
+  margin-left: 5px;
+}

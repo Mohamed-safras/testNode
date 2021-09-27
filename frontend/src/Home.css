@@ -1,0 +1,63 @@
+.home {
+  width: 500px;
+
+  border-left: 1px solid #e6edf1;
+  border-right: 1px solid #e6edf1;
+}
+.homeHeader {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid #e6edf1;
+}
+.homeHeader > h3 {
+  margin: 10px;
+}
+
+.homeProfileHeader {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.homeProfile {
+  margin-top: 10px;
+  border-bottom: 10px solid #e6edf1;
+}
+.homeProfileBottom {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  justify-content: space-between;
+  padding: 10px;
+}
+.homeProfileHeader > input {
+  border: none;
+  outline: none;
+  padding: 12px 0px;
+  margin-left: 10px;
+  font-size: 16px;
+  flex: 1;
+  margin-right: 10px;
+  border-bottom: 1.5px solid #e6edf1;
+}
+.homeProfileBottomButton > button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #1da1f2;
+  border-radius: 24px;
+  color: #fff;
+  height: 40px;
+  width: 74px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px 0px 0px 12px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: #51b9fa;
+  cursor: pointer;
+  margin: 10px;
+}

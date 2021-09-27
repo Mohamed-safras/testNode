@@ -1,12 +1,13 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const bodyparser = require("body-parser");
+const bodyparsers = require("body-parser");
 require("dotenv/config");
 const postRoute = require("./routers/post");
 const app = express();
 /*-------------------------------------middleware---------------------------------------------*/
-app.use(bodyparser.json());
-app.use("/", postRoute);
+app.use(bodyparsers.json());
+app.use("/post", postRoute);
+app.use(express.json());
 /*-------------------------------------DATABASE CONNECTION------------------------------------*/
 const monogoUrl = process.env.DB_CONNECTION;
 const monogoConnectionEssiential = {
